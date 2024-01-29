@@ -1,0 +1,109 @@
+.container {
+  background-color: #07080c;
+  background-size: cover;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+  }
+}
+
+.heading {
+  font-family: Roboto;
+  font-style: italic;
+  color: #ffffff;
+  font-size: 70px;
+}
+
+@media screen and (max-width: 576px) {
+  .heading {
+    font-size: 40px;
+  }
+}
+
+.image {
+  height: 300px;
+  width: 900px;
+}
+
+@media screen and (max-width: 576px) {
+  .image {
+    height: 30%;
+    width: 70%;
+  }
+}
+
+.speed-count {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 50px;
+}
+
+@media screen and (max-width: 576px) {
+  .speed-count {
+    font-size: 28px;
+  }
+}
+
+.warning-msg {
+  font-family: Roboto;
+  color: #cbd5e1;
+  font-size: 28px;
+}
+
+@media screen and (max-width: 576px) {
+  .warning-msg {
+    font-size: 18px;
+  }
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.accelerate-button {
+  background-color: #0b69ff;
+  border: none;
+  border-radius: 6px;
+  padding: 15px;
+  color: #ffffff;
+  font-size: 20px;
+  margin-right: 15px;
+  cursor: pointer;
+  outline: none;
+}
+
+.break-button {
+  background-color: transparent;
+  border-radius: 6px;
+  color: #94a3b8;
+  border-color: #94a3b8;
+  font-size: 20px;
+  padding: 15px;
+  margin-left: 15px;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (max-width: 576px) {
+  .accelerate-button {
+    font-size: 15px;
+  }
+  .break-button {
+    font-size: 15px;
+  }
+}
